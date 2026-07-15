@@ -404,3 +404,13 @@ window.addEventListener("scroll",()=>{
 
 });
 
+// Disable custom cursor on touch devices //
+const isTouchDevice =
+    window.matchMedia("(hover: none), (pointer: coarse)").matches;
+
+if (!isTouchDevice) {
+    // Put all your custom cursor code here:
+    // - mousemove for cursor
+    // - star trail
+    // - hover scaling
+}
