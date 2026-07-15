@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanupa Thakur | Graphic Designer & Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+
+<body>
+    <div class="custom-cursor">✦</div>
+    <div id="star-container"></div>
+    <canvas id="bg"></canvas>
+
+    <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+        <video autoplay loop muted plays-inline src="assets/videos/blackholewarm.mp4"></video>
+    </div>
+
+
+    <!-- NAVBAR STARTS -->
+        <nav>
+            <a class="nav-logo gradient" href="#"><span>✦</span> TANUPA</a>
+
+            <!-- Hamburger -->
+            <div class="menu-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="box-icons">
+                <!-- Email -->
+                <a href="mailto:worktanupa@gmail.com" aria-label="Email">
+                    <i class='bx bxs-envelope'></i>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/tanupathakur" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/tanupathakur/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </div>
+        </nav>
+        <!-- NAVBAR ENDS -->
+    <div class="container">
+        
+
+
+        <main class="content-wrapper">
+            <!-- HERO SECTION STARTS -->
+            <section class="hero" id="home">
+                <div class="hero-container">
+                    <div class="hero-text autoBlur" data-aos="fade-right" data-aos-duration="1200">
+                        <h3>Hi, I'm Tanupa Thakur</h3>
+                        <h1 class="track-cursor">DESIGNING<br>THE FUTURE</h1>
+                        <p>UI/UX Designer, Frontend Developer & Graphic Designer.<br>Designing intuitive experiences and engaging interfaces.
+                        </p>
+                        <div class="button-group">
+                            <a href="#projects" class="btn-3d primary">View Projects</a>
+                            <a href="#contact" class="btn-3d secondary">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-spline autoBlur" data-aos="fade-left" data-aos-duration="1200">
+                        <script type="module"
+                            src="https://unpkg.com/@splinetool/viewer@1.12.97/build/spline-viewer.js"></script>
+                        <spline-viewer
+                            url="https://prod.spline.design/i3YFiMkpbDzlbORY/scene.splinecode"></spline-viewer>
+                    </div>
+                </div>
+            </section>
+            <!-- HERO SECTION ENDS -->
+
+            <!-- ABOUT SECTION STARTS -->
+            <section class="glass-section" id="about">
+                <div class="glass-pill-container">
+                    <div class="about-container">
+                        <div class="pill-wrapper" data-aos="zoom-in" data-aos-duration="900">
+                            <div class="image-wrapper" id="portrait-tracker">
+                                <img src="assets/imgs/me.png" alt="Profile" class="portrait-base">
+                                <img src="assets/imgs/mehover.png" alt="Profile Hover" class="portrait-hover">
+                            </div>
+                        </div>
+
+                        <div class="text-content autoDisplay" data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-delay="150">
+                            <h2 class="gradient">About Me</h2>
+                            <div class="split-layout">
+                                <p>I am a Computer Science student and creative designer...</p>
+                                <p>My journey started with graphic design and gradually expanded into user interface
+                                    design and web development. I enjoy transforming ideas into visually appealing
+                                    and
+                                    functional digital experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ABOUT SECTION ENDS -->
+
+            <!-- SKILLS SECTION STARTS -->
+            <section class="skills-section">
+                <h1 class="section-title autoDisplay" data-aos="fade-up">
+                    Core Skills
+                </h1>
+                <div class="skills-box autoDisplay">
+                    <script type="module"
+                        src="https://unpkg.com/@splinetool/viewer@1.12.98/build/spline-viewer.js"></script>
+                    <spline-viewer url="https://prod.spline.design/SieWFIVmRuz4FZHx/scene.splinecode"></spline-viewer>
+                    <div class="Designer" data-aos="fade-right" data-aos-delay="100">
+                        <h1 class="gradient">Designer <i class='bx bx-laptop'></i></h1>
+                        <p>I craft intuitive, user-centered digital experiences. Leveraging Figma and the Adobe Creative
+                            Suite (Photoshop, Illustrator, InDesign), I specialize in translating complex problems into
+                            clean, minimal, and highly functional interfaces.</p>
+                    </div>
+
+                    <div class="coder" data-aos="fade-left" data-aos-delay="250">
+                        <h1 class="gradient">Coder <i class='bx bx-code-block'></i></h1>
+                        <p>I bring designs to life through clean, semantic code. With strong foundational skills in
+                            HTML, CSS, jQuery, Bootstrap and JavaScript, I build responsive, accessible, and interactive web
+                            experiences that perfectly bridge aesthetics and engineering.</p>
+                    </div>
+
+                    <div class="slider" data-aos="zoom-in-up" data-aos-delay="300" reverse="true">
+                        <div class="list">
+                            <div class="item" style="--position: 1"><img src="assets/imgs/1.webp" alt=""></div>
+                            <div class="item" style="--position: 2"><img src="assets/imgs/2.png" alt=""></div>
+                            <div class="item" style="--position: 3"><img src="assets/imgs/3.png" alt=""></div>
+                            <div class="item" style="--position: 4"><img src="assets/imgs/4.webp" alt=""></div>
+                            <div class="item" style="--position: 5"><img src="assets/imgs/5.png" alt=""></div>
+                            <div class="item" style="--position: 6"><img src="assets/imgs/6.png" alt=""></div>
+                            <div class="item" style="--position: 7"><img src="assets/imgs/7.png" alt=""></div>
+                            <div class="item" style="--position: 8"><img src="assets/imgs/8.png" alt=""></div>
+                            <div class="item" style="--position: 9"><img src="assets/imgs/9.webp" alt=""></div>
+                            <div class="item" style="--position: 10"><img src="assets/imgs/10.png" alt=""></div>
+                            <div class="item" style="--position: 11"><img src="assets/imgs/11.webp" alt=""></div>
+                            <div class="item" style="--position: 12"><img src="assets/imgs/12.webp" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SKILLS SECTION ENDS -->
+
+            <!-- CATEGORY SECTION STARTS -->
+            <section class="glass-section" id="expertise">
+                <h2 class="autoDisplay" data-aos="fade-up">Areas of Expertise</h2>
+                <p class="section-intro autoDisplay" data-aos="fade-up" data-aos-delay="100">Select a discipline to
+                    explore my
+                    design methodologies.</p>
+
+                <div class="category-grid autoBlur">
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-icon">🎨</div>
+                        <h3>Graphic Design</h3>
+                        <p>Visual identities, comprehensive branding kits, social media creatives, and print media
+                            designed
+                            to communicate and captivate.</p>
+                        <a href="#projects" class="btn-3d secondary small explore-btn" data-filter="graphic">Explore
+                            Graphic Design</a>
+                    </div>
+
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="250">
+                        <div class="card-icon">✨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Interactive prototypes, user-centric wireframes, and high-fidelity interfaces crafted for
+                            seamless digital experiences.</p>
+                        <a href="#projects" class="btn-3d secondary small explore-btn" data-filter="uiux">Explore
+                            UI/UX</a>
+                    </div>
+
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-icon">💻</div>
+                        <h3>Frontend Dev</h3>
+                        <p>Responsive web applications, interactive portfolios, and dynamic layouts translating design
+                            directly into reality.</p>
+                        <a href="#projects" class="btn-3d secondary small explore-btn" data-filter="frontend">Explore
+                            Frontend</a>
+                    </div>
+                </div>
+            </section>
+            <!-- CATEGORY SECTION ENDS -->
+
+            <!-- PROJECT SECTION STARTS -->
+            <section class="glass-section" id="projects">
+                <h2 class="autoDisplay" data-aos="fade-up">Selected Works</h2>
+                <p class="section-intro autoDisplay" data-aos="fade-up" data-aos-delay="100">
+                    Explore projects across branding, UI/UX, frontend development and print design.
+                </p>
+
+                <!-- Filter Buttons -->
+                <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic</button>
+                    <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                </div>
+
+                <div class="swiper project-slider autoBlur" data-aos="zoom-in-up" data-aos-delay="300">
+
+                    <div class="swiper-wrapper">
+
+                        <!-- Frontend -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="frontend">
+
+                                <div class="card-image">
+                                    <img src="assets/imgs/handknotweb.png" alt="HandKnot Website">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag amber">HTML5</span>
+                                        <span class="tag coral">CSS3</span>
+                                        <span class="tag gold">JavaScript</span>
+                                    </div>
+
+                                    <h3>HandKnot</h3>
+
+                                    <p>
+                                        A fully responsive handcrafted products e-commerce website featuring
+                                        modern UI, smooth animations, product categories, shopping cart,
+                                        and a clean user experience built using HTML, CSS, and JavaScript.
+                                    </p>
+
+                                    <a href="https://tanupathakur.github.io/handknot/" target="_blank"
+                                        rel="noopener noreferrer" class="view-link">
+                                        Visit Website →
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Frontend - Food Website -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="frontend">
+
+                                <div class="card-image">
+                                    <img src="assets/imgs/burger.png" alt="Food Website">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag amber">Web</span>
+                                        <span class="tag gold">Frontend</span>
+
+                                    </div>
+
+                                    <h3>Food Website</h3>
+
+                                    <p>
+                                        A modern and responsive restaurant website featuring an elegant
+                                        landing page, interactive navigation, menu sections, and a
+                                        mobile-friendly design focused on a seamless user experience.
+                                    </p>
+
+                                    <a href="https://tanupathakur.github.io/foodwebsite/" target="_blank"
+                                        rel="noopener noreferrer" class="view-link">
+                                        Visit Website →
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- UIUX -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="uiux">
+                                <div class="card-image">
+                                    <img src="assets/imgs/Website Design.png" alt="">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag amber">Web Design</span>
+                                        <span class="tag gold">Figma</span>
+                                    </div>
+
+                                    <h3>Movie Streaming Platform</h3>
+
+                                    <p>
+                                        A modern streaming platform interface designed in Figma with intuitive
+                                        navigation, personalized recommendations, and a visually engaging user
+                                        experience.
+                                    </p>
+                                    <a href="https://www.figma.com/proto/7e1vLtftTYHZT0lWELYenA/Movies-streaming?node-id=15-1425&t=QTW9UWZf0bI9TBsP-1"
+                                        target="_blank" rel="noopener noreferrer" class="view-link">
+                                        Live Prototype →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- UI/UX -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="uiux">
+
+                                <div class="card-image">
+                                    <img src="assets/imgs/handknotcasestudy.png" alt="HandKnot Website">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag gold">Case Study</span>
+                                        <span class="tag coral">Figma</span>
+                                        <span class="tag amber">UI/UX</span>
+                                    </div>
+
+                                    <h3>HandKnot - UI/UX Case Study</h3>
+
+                                    <p>
+                                        HandKnot is a self-initiated concept created to explore how thoughtful UX can
+                                        help small handmade crochet businesses create trust, showcase craftsmanship, and
+                                        improve the online shopping experience.
+                                    </p>
+
+                                    <a href="https://www.behance.net/gallery/252767245/Handknot-UXUI-Case-Study" target="_blank"
+                                        rel="noopener noreferrer" class="view-link">
+                                        Visit Case Study →
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Graphic -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="graphic">
+                                <div class="card-image">
+                                    <img src="assets/imgs/handknot.png" alt="">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag coral">Brand Identity</span>
+                                        <span class="tag gold">3D Design</span>
+                                    </div>
+
+                                    <h3>Crochet Branding</h3>
+
+                                    <p>
+                                        Complete branding project including logo system,
+                                        brand book, mockups and 3D visualization.
+                                    </p>
+
+                                    <a href="https://www.behance.net/gallery/243889097/Showreel" class="view-link">
+                                        View Branding →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frontend - Clone Website -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="frontend">
+
+                                <div class="card-image">
+                                    <img src="assets/imgs/clonewebsite.png" alt="Clone Website">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag amber">HTML</span>
+                                        <span class="tag gold">CSS</span>
+                                        <span class="tag coral">Website</span>
+                                    </div>
+
+                                    <h3>Website Clone</h3>
+
+                                    <p>
+                                        A responsive front-end website clone recreated to practice modern web
+                                        development,
+                                        focusing on accurate layouts, smooth interactions, and pixel-perfect design
+                                        implementation.
+                                    </p>
+
+                                    <a href="https://tanupathakur.github.io/myclonewebsite/" target="_blank"
+                                        rel="noopener noreferrer" class="view-link">
+                                        Visit Website →
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Graphic -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="graphic">
+                                <div class="card-image">
+                                    <img src="assets/imgs/travelstandee.png" alt="">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag coral">Print</span>
+                                        <span class="tag amber">Illustrator</span>
+                                        <span class="tag gold">Photoshop</span>
+                                    </div>
+
+                                    <h3>Travel Standee</h3>
+
+                                    <p>
+                                        Promotional standee designed using modern typography
+                                        and strong visual hierarchy.
+                                    </p>
+
+                                    <a href="https://www.behance.net/gallery/252142443/Travel-Promotion-Standee"
+                                        target="_blank" rel="noopener noreferrer" class="view-link">
+                                        View Project →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Graphic 2 -->
+                        <div class="swiper-slide">
+                            <div class="glow-card" data-category="graphic">
+                                <div class="card-image">
+                                    <img src="assets/imgs/postersmockup.png" alt="Poster Design Collection">
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="tags">
+                                        <span class="tag coral">Poster</span>
+                                        <span class="tag gold">Photoshop</span>
+                                    </div>
+
+                                    <h3>Poster Design Collection</h3>
+
+                                    <p>
+                                        A collection of creative poster designs featuring music, entertainment,
+                                        business, and promotional concepts with bold typography and compelling visuals.
+                                    </p>
+
+                                    <a href="https://www.behance.net/gallery/252141893/Poster-Design-Collection"
+                                        class="view-link">
+                                        View Graphic →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!-- LEFT ARROW -->
+                    <div class="custom-nav custom-prev">
+                        ❮
+                    </div>
+
+                    <!-- RIGHT ARROW -->
+                    <div class="custom-nav custom-next">
+                        ❯
+                    </div>
+
+                </div>
+
+                <!-- PAGINATION BELOW -->
+                <div class="custom-pagination"></div>
+            </section>
+            <!-- PROJECT SECTION ENDS -->
+
+            <!-- EXPERIENCE & LEARNING SECTION STARTS -->
+            <section class="glass-section" id="experience">
+
+                <h2 class="autoDisplay" data-aos="fade-up">Experience & Learning</h2>
+                <p class="section-intro autoDisplay" data-aos="fade-up" data-aos-delay="100">
+                    My journey through professional work, industry training, and continuous learning.
+                </p>
+
+                <div class="experience-wrapper">
+
+
+
+                    <!-- Experience 1 -->
+                    <div class="card" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="card-header">
+                            <div>
+                                <h3>UI/UX & Generative AI Trainee</h3>
+                                <h4>MAAC, Chandigarh</h4>
+                            </div>
+
+                            <span>2026 – Present</span>
+                        </div>
+
+                        <ul>
+                            <li>Learning user-centered design principles, UX research, wireframing, and interactive
+                                prototyping.</li>
+                            <li>Building responsive UI designs and design systems using Figma.</li>
+                            <li>Exploring AI-assisted design workflows and Generative AI tools to improve creativity and
+                                productivity.</li>
+                            <li>Working on industry-oriented projects focused on modern digital product design.</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="card" data-aos="fade-up" data-aos-delay="250">
+
+                        <div class="card-header">
+                            <div>
+                                <h3>Graphic Designer</h3>
+                                <h4>Pehchaan – The Street School NGO</h4>
+                            </div>
+
+                            <span>July 2025</span>
+                        </div>
+
+                        <ul>
+                            <li>Designed social media creatives, campaign visuals, and promotional assets for digital
+                                platforms.</li>
+                            <li>Developed branding materials while maintaining a consistent visual identity.</li>
+                            <li>Collaborated with the team to create event graphics, awareness campaigns, and marketing
+                                collateral.</li>
+                            <li>Worked on print and digital designs with a strong focus on typography, layout, and
+                                visual communication.</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="card" data-aos="fade-up" data-aos-delay="400">
+
+                        <div class="card-header">
+                            <div>
+                                <h3>Industrial Trainee</h3>
+                                <h4>Ui Educon</h4>
+                            </div>
+
+                            <span>July 2024</span>
+                        </div>
+
+                        <ul>
+                            <li>Completed an industry training program focused on Machine Learning and Data Science.
+                            </li>
+                            <li>Gained exposure to software development workflows and collaborative project
+                                environments.</li>
+                            <li>Strengthened analytical thinking and problem-solving through practical assignments.</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- EXPERIENCE & LEARNING SECTION ENDS -->
+
+            <!-- FOOTER SECTION STARTS -->
+            <footer class="autoBlur" data-aos="zoom-out-down" data-aos-duration="1200">
+                <h2 id="contact" class="track-cursor">Let's Work Together</h2>
+                <p>I am always interested in new opportunities, creative collaborations, and design projects.</p>
+                <div class="social-links">
+                    <a href="mailto:worktanupa@gmail.com" class="social-btn">Email</a>
+
+                    <a href="https://www.linkedin.com/in/tanupathakur/" class="social-btn" target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a href="https://www.behance.net/tanupathakur" class="social-btn" target="_blank"
+                        rel="noopener noreferrer">
+                        Behance
+                    </a>
+
+                    <a href="https://github.com/tanupathakur" class="social-btn" target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </div>
+                <p class="copyright">© 2026 Tanupa Thakur. All Rights Reserved.</p>
+            </footer>
+            <!-- FOOTER SECTION ENDS -->
+
+
+
+
+        </main>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+
+            <div class="rocket-wrapper">
+
+                <img src="assets/imgs/rocket.png" class="rocket-img" alt="Rocket">
+
+                <span class="rocket-flame"></span>
+
+            </div>
+
+        </a>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 900,
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 80,
+            mirror: false
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
