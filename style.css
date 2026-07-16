@@ -1546,6 +1546,19 @@ footer p {
 }
 
 
+/* Disable custom cursor on touch devices */
+@media (hover: none), (pointer: coarse) {
+    body {
+        cursor: auto;
+    }
+
+    .custom-cursor,
+    #star-container {
+        display: none !important;
+    }
+}
+
+
 
 
 /*   RESPONSIVE BREAKPOINTS  */
